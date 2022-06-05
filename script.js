@@ -1,4 +1,4 @@
-fetch("https://icanhazdadjoke.com/slack")
+fetch("")
   .then((data) => data.json())
   .then((arfinData) => {
     const arfinText = arfinData.attachments[0].text;
