@@ -6,7 +6,7 @@
 body {
   width: 400px;
   height: 500px;
-  background-color: #e6e6e6;
+  background-color: white;
   font-family: sans-serif;
 }
 .heder-box {
@@ -22,16 +22,50 @@ body {
 .heder-text h1 {
   font-size: 30px;
   padding: 5px;
-  color: #e6e6e6;
+  color: white;
   font-weight: 700;
-}
-.tech {
-  font-size: 20px;
 }
 .al-tech {
   display: flex;
-  text-align: center;
   justify-content: space-between;
-  padding: 5px 20px 5px 20px;
-  border-bottom: 1px solid rebeccapurple;
+  padding: 20px 20px 20px 20px;
+  align-items: center;
+  border-bottom: 1px solid #ebebeb;
+}
+.al-tech a {
+  text-decoration: none;
+  color: #7a7a7a;
+}
+.al-tech a:hover {
+  color: #5e17eb;
+}
+.ip {
+  font-size: 30px;
+  padding: 5px 0px 5px 0px;
+  align-content: center;
+  display: flex;
+  justify-content: center;
+  color: black;
+  background-color: #ebebeba7;
+  margin-top: 1px;
+}
+.al-page {
+  margin: 0px 20px 0px 20px;
+  padding: 10px;
+}
+.al-page p {
+  font-size: 20px;
+}
+.page {
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px;
+}
+.color-page {
+  color: red;
+}
+.block{
+  font-size: 20px;
+  margin-left: 100px;
+  margin-bottom: 10px;
 }
