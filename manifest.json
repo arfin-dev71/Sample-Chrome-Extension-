@@ -1,5 +1,6 @@
 {
   "name": "Arfin — Technology profiler",
+  "description": "Identify web technologies Block ads and pop-ups on YouTube, Facebook, Twitch, and your favorite websites.",
   "version": "0.0.1",
   "manifest_version": 2,
   "browser_action": {
